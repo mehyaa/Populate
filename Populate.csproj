@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Authors>mehyaa</Authors>
+        <Product>Populate</Product>
+        <Description>Populate files from a Mustache template and Excel file values</Description>
+        <PackageProjectUrl>https://github.com/mehyaa/Populate</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.0-preview1" />
+      <PackageReference Include="EPPlus" Version="5.3.2" />
+      <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
+      <PackageReference Include="Mustache" Version="1.0.1" />
+      <PackageReference Include="System.Net.Primitives" Version="4.3.1" />
+    </ItemGroup>
+
+</Project>
